@@ -1130,7 +1130,7 @@ function toolchain(_buildDir, _subDir)
 		-- FIXME: set BIGENDIAN and dynarec based on retro_platform/retro_arch
 		if LIBRETRO_CPU~=nil then
 			if LIBRETRO_CPU=="x86_64" or LIBRETRO_CPU=="ppc64" then
-				defines { "PTR64=1" }
+				defines { "PTR64=0" }
 			end
 		end
 
