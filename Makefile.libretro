@@ -53,7 +53,7 @@ VERBOSE ?= 1
 
 # You probably shouldn't need to set this anymore (find libretro section of
 # scripts/toolchain.lua)
-# PTR64 = 1
+# PTR64 = 0
 
 USE_BGFX ?= 0
 
